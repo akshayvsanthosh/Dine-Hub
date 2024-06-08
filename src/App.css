@@ -1,0 +1,105 @@
+/* home.jsx */
+.bg1{
+    background-image: url('./assets/bg2.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg2{
+    background-image: url('./assets/bg1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg3{
+    background-image: url('./assets/bg3.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg4{
+    background-image: url('./assets/bg4.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg5{
+    background-image: url('./assets/bg5.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-caption{
+    width: 86%;
+    height: 100%;
+    right: 0% !important;
+    bottom: 0 !important;
+    left: 7% !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.insideCarouselCaption{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    align-items: center;
+}
+
+.homeLogo{
+    animation: spin 7s linear infinite;
+}
+
+.homePara{
+    padding: 38px 58px;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Restaurant.jsx */
+.main{
+    background-image: url("https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bttnEdit{
+    font-size: 15px !important;
+    width: 50%;
+    padding: 3px !important;
+    height: 28px;
+    border-radius: 21px;
+}
+
+/* view.jsx */
+.gridView{
+    background-color: #373a3c69;
+    border-radius: 20px;
+}
+
+.restImage{
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 95%;
+}
+
+/* detailsView.jsx */
+.detailBox{
+    background-color: #9e9e9e2b;
+    border-radius: 10px;
+}
+
+
+/* home.jsx */
+@keyframes spin{
+    100%{transform: rotate(360deg);}
+}
