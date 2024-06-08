@@ -55,16 +55,16 @@ function Restaurants() {
                         />
                         <Box sx={{ display: 'flex', flexDirection: 'column' }}>
                           <CardContent sx={{ flex: '1 0 auto', display: 'flex', flexDirection: 'column', justifyContent: "flex-end" }}>
-                            <Typography component="div" variant="h6" color={"#f2f2f2"}>
-                              {restaurt.name.slice(0,12)}...
-                            </Typography>
+                              <Typography component="div" variant={"h6"} color={"#f2f2f2"}>
+                                {restaurt.name.slice(0,12)}...
+                              </Typography>
                             <Typography variant="subtitle1" component="div" color={"#ababab"}>
                               {restaurt.neighborhood}
                             </Typography>
-                            <Typography variant="body2" component="div" color={"#ababab"}>
+                            <Typography variant="body2" component="div" color={"#ababab"} >
                               Cuisine Type : {restaurt.cuisine_type}
                             </Typography>
-                            <Rating className='mt-2' name="size-medium" defaultValue={restaurt.reviews[0].rating} precision={0.5} />
+                            <Rating className='mt-2 restPageRating' name="size-medium" defaultValue={restaurt.reviews[0].rating} precision={0.5} />
                             <Link to={`/${restaurt.id}/view`} className='btn btn-info bttnEdit'>View</Link>
                           </CardContent>
                         </Box>
